@@ -1,24 +1,31 @@
-Project Name
-[fi-champions]
+# F1 Champions
 
-Clone GithubRepository
-Clone GithubRepository using SSH Keys
+Welcome to the F1 Champions project! This application provides information about Formula 1 champions.
 
-GithubRepository : git@github.com:Sibabalo97/f1-champions.git
+## Clone GitHub Repository
 
-Quick Start
-In the project (cd to fi-champions) directory, you can run:
+Clone the GitHub repository using SSH Keys:
 
+GitHub Repository: [git@github.com:Sibabalo97/f1-champions.git](git@github.com:Sibabalo97/f1-champions.git)
+
+## Quick Start
+
+1. In the project directory (`fi-champions`), you can run:
+
+```bash
 npm install
-Installs the necessary dependencies to run the application.
+
+
+##  Start the app in development mode:
 
 npm start
-Starts the app in development mode.
-Open http://localhost:3000 to view it in your browser.
 
 
+  ##  Docker Setup
+If you prefer to run the application using Docker, follow these steps:
 
-Run docker -p 3000:3000  fa3e7ecc448a
-and its Image & then run this command Run docker on you PC docker run -p 3000:3000 fa3e7ecc448a
-
+Run the Docker container with port mapping:
+bash
+docker run -p 3000:3000 fa3e7ecc448a
+##
 Now, you are ready to develop your React application. Happy coding!
